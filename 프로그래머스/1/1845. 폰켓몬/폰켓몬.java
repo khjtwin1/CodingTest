@@ -1,9 +1,8 @@
-import java.util.Set;
 import java.util.HashSet;
 
 class Solution {
     public int solution(int[] nums) {
-        Set<Integer> list = new HashSet<>();
+        HashSet<Integer> list = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
             list.add(nums[i]);
         }
